@@ -204,7 +204,7 @@ Support: Rs.${ind.support} | Resistance: Rs.${ind.resist}
 ३) नेपाली लगानीकर्ताको लागि छोटो सुझाव।
 ८० शब्दभन्दा कम राख्नुस्। सरल नेपाली भाषामा लेख्नुस्।`;
   try{
-    const key=const key=import.meta.env.VITE_OPENROUTER_KEY;
+    const key=import.meta.env.VITE_OPENROUTER_KEY;
     const r=await fetch("https://openrouter.ai/api/v1/chat/completions",{
       method:"POST",
       headers:{
